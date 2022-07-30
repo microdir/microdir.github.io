@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Teste da Objective</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- TO INDEX IN SEARCHES -->
+        <meta name='robots' content='index, follow' />
+        <meta name="description" content="Teste do candidato Michel Nunes para vaga Front End - Objective" />
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:description" content="Teste do candidato Michel Nunes para vaga Front End - Objective" />
+        <meta property="og:site_name" content="Teste Objective" />
+        <meta property="og:image" content="./src/images/system/logo.svg" />
+        <meta property="og:image:width" content="327" />
+        <meta property="og:image:type" content="image/svg" />
+
+        <!-- TITLE ICON -->
+        <link rel="icon" href="./src/images/system/favicon-32px.png" sizes="32x32" />
+
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/style-responsive.css">
+
+        <script src="./src/js/characteres.js?v=1.0.0"></script>
+        <script src="./src/js/pagecontrollers.js?v=1.0.0"></script>
+    </head>
+    <body>
+        <header>
+            <div id="interface">
+                <div class="logo">
+                    <img src="./src/images/system/logo.svg" alt="Logomarca Objective">
+                </div>
+                <div class="rights">
+                    <span><strong>Michel Nunes</strong> Teste de Front-end</span>
+                    <div id="profile"><strong>CB</strong></div>
+                </div>
+            </div>
+        </header>
+
+        <section class="container">
+            <div class="w-md-auto">
+                <h2>Busca de Personagens</h2>
+                <h4>Nome do personagem</h4>
+                <div class="input-group">
+                    <input type="text" name="pesquisa" id="pesquisa" placeholder="Search">
+                    <img src="./src/images/system/icons/search.svg" alt="Icon Search">
+                </div>
+            </div>
+
+            <div id="buscas">
+                <div class="row mt-50 mb-15">
+                    <div class="col-3 text-muted pl-24">Personagem</div>
+                    <div class="col-3 text-muted pl-24 sm-none">Séries</div>
+                    <div class="col-3 text-muted pl-24 sm-none">Eventos</div>
+                </div>
+                <div id="cards">
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="shadow-high">
+            <div id="controllers">
+                <button class="img-controller img-left" data-action="1" id="primeiro">
+                    <img src="./src/images/system/icons/left-doublearrow.svg" alt="Primeiro">
+                </button>
+                <button class="img-controller img-left" data-action="-1" id="anterior">
+                    <img src="./src/images/system/icons/left-arrow.svg" alt="Anterior">
+                </button>
+                <button class="bt-controller bt-active">1</button>
+                <button class="bt-controller">2</button>
+                <button class="bt-controller">3</button>
+                <button class="bt-controller">4</button>
+                <button class="bt-controller">5</button>
+                <button class="img-controller" data-action="+1" id="proximo">
+                    <img class="img-right" src="./src/images/system/icons/left-arrow.svg" alt="Próximo">
+                </button>
+                <button class="img-controller" data-action="5" id="ultimo">
+                    <img class="img-right" src="./src/images/system/icons/left-doublearrow.svg" alt="Último">
+                </button>
+            </div>
+        </footer>
+
+        <script src="./src/js/init.js?v=1.0.0"></script>
+    </body>
+</html>

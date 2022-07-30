@@ -1,0 +1,26 @@
+/* VERSÃO 1.0.0 */
+/* RESPONSIVE STYLES FROM WEBSITE */
+
+@media screen and (max-width: 720px){
+    /* SECTIONS STYLES */
+    section.container {
+        padding: 40px 32px 150px 32px;
+        text-align: center;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .sm-none {
+        display: none;
+    }
+
+    .card {
+        padding: 12px;
+    }
+
+    .col-3 {
+        max-width: 100%;
+    }
+}
